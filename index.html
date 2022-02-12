@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sejal Singh">
+    <!--bootstrap css-->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--local style sheet-->
+        <link rel="stylesheet" href="style.css">
+    <title>Design2Code</title>
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <section class="header">
+        <div >
+            <nav class="navbar navbar-expand-lg navbar-light  "> 
+              <div >
+                <a class="navbar-brand" href="#">
+                  <img class="navbar-brand logo " src="Images/logo.png" > 
+                </a>
+              </div>
+               
+                 <ul class="nav ml-auto " role="navigation" >
+                      <li class=" nav-item"> 
+                         <a class="nav-link header-link black bolder" href=""> About </a>
+                      </li>
+                      <li class=" nav-item"> 
+                          <a class="nav-link header-link black bolder " href=""> Services </a>
+                      </li>
+                      <li class=" nav-item"> 
+                        <a class="nav-link header-link black bolder " href=""> Blog </a>
+                      </li>
+                      <li class=" nav-item"> 
+                        <a class="nav-link header-link bolder " href=""> <u>Contact</u></a>
+                      </li>
+                  </ul>
+              
+              </nav>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light  "> 
+              <div >
+                <a class="navbar-brand " href="#"> <span class="contact_us"> Contact us </span>  </a>
+              </div>
+               
+                 <ul class="nav ml-auto " role="navigation" >
+                      <li class=" nav-item"> 
+                         <a class="nav-link header-link white " href=""> Home </a>
+                      </li>
+                      <li class=" nav-item"> 
+                          <a class="nav-link header-link white" href=""> &gt; </a>
+                      </li>
+                      <li class=" nav-item"> 
+                        <a class="nav-link header-link white " href=""> Contact </a>
+                      </li>
+                 </ul>
+              
+              </nav>
+        </div>
+    </section>
+
+    <!-- Main content -->
+    <section class="main">
+        <div >
+            <div class="row info">
+                <div class="col part1">
+                    <h1> Get in touch with us</h1>
+                    <p class="para"> Contact us for a Website , Mobile Application, Digital Marketing </p>
+                    <p class="para">  or IT Support</p>
+                    <table>
+                        <tr>
+                            <td> <img src="Images/address.png" height="50px" width="50px"> </td>
+                            <td> <p> Innovfide Technologies </p>
+                                  <p> Anulekha, Anurag Nagar , Tulinj </p> 
+                                    <p>  Nallasopara East </p> 
+                            </td>
+                         </tr>
+                        <tr >
+                          <td> <img src="Images/email.png" height="50px" width="50px"> </td>
+                            <td> <p>business@innovfide.com </p> </td>
+                        </tr>
+                        <tr >
+                            <td> <img src="Images/phone.png" height="50px" width="50px"> </td>
+                            <td> <p>+91 8767484648  </p> </td>
+                        
+                        </tr>
+                    </table>
+                </div>
+                <div class="vl">
+
+                </div>
+                <div class="col part2 ">
+                    <form  action="#">  
+                           <div class="row">
+                               <div class="col">
+                                     <label for="first" class="bold"> First Name: <sup> * </sup></label>
+                                     <input type="text" class="form-control width"  id="first" name="first_name"  placeholder="Please enter your First Name" aria-label="First name">
+                                     <p class="first-error red"></p>
+                             </div>
+                            
+                                 <div class="col">
+                                      <label for="last" class="bold"> Last Name: <sup> * </sup></label>
+                                     <input type="text" class="form-control width" id="last" name="last_name"  placeholder="Please enter your Last Name" aria-label="Last name">
+                                     <p class="last-error red"></p>
+                                </div>
+                           </div>
+                           <br>
+                           <div class="row">
+                                 <div class="col">
+                                    <label for="email" class="bold"> Email: <sup> * </sup></label>
+                                    <input type="email" class="form-control width" id="email" name="email" placeholder="Please enter your Email" >
+                                    <p class="email-error red"></p>
+                                 </div>
+                                 <div class="col">
+                                    <label for="phone" class="bold"> Phone no: <sup> * </sup></label>
+                                    <input type="number" class="form-control width" id="phone" name="phone"   placeholder="Please enter your Phone No" >
+                                    <p class="phone-error red"></p>
+                                </div>
+                           </div>
+                            <br>    
+                            <label for="website" class="bold"> Do you have a website?<sup > * </sup> <span class="option-error red"></span>
+                                    <br>
+                                 <input  type="radio" name="inlineRadioOptions" id="inlineRadio1"  value="Yes">
+                                 <label  for="inlineRadio1">Yes</label>
+                                 <input  type="radio" name="inlineRadioOptions" id="inlineRadio2"  value="No">
+                                 <label  for="inlineRadio2">No</label>
+                            </label>
+                            <br>
+                                <label for="url" class="bold"> Website URL:</label>
+                                <input type="url" class="form-control width" id="url" name="website_url" placeholder="Please enter your Website URL">
+                                <span class="url-error red"></span>
+                            <br>
+                                <input class="btn " type="button" value="SUBMIT" ></input>
+                        </form>
+                  </div>
+            </div>
+        </div>
+     </section>
+    <hr>
+
+    <!-- footer section -->
+    <section class="footer">
+        <p> All Right Reserved | <span class="blue"> Innovfide Technologies </span> | 2021 </p>
+    </section>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- local javascript file -->
+    <script src="app.js" charset="utf-8" type="text/javascript" defer></script>
+
+</body>
+</html>
